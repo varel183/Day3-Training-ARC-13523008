@@ -27,16 +27,18 @@ Finance Tracker adalah aplikasi web sederhana untuk melacak pemasukan dan pengel
 
 1. **Clone Repositori**:
    ```bash
-
+   git clone https://github.com/varel183/Day3-Training-ARC-13523008.git
+   cd Day3-Training-ARD-13523008
    ```
 
 2. **Instal Dependencies**:
    ```bash
+   cd backend
    npm install
    ```
 
 3. **Buat File `.env`**:
-   Buat file `.env` di root direktori dan tambahkan API key Anda:
+   Buat file `.env` di folder backend dan tambahkan API key Anda:
    ```env
    EXCHANGE_RATE_API_KEY=your_api_key_here
    ```
