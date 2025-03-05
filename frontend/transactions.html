@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Transaksi</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body class="transactions">
+    <h1>Daftar Transaksi</h1>
+    <div style="display: flex; justify-content: center; align-items: center">
+      <button onclick="fetchTransactions('/api/transactions')">Semua Transaksi</button>
+      <button onclick="fetchTransactions('/api/transactions/income')">Pemasukan</button>
+      <button onclick="fetchTransactions('/api/transactions/expense')">Pengeluaran</button>
+      <select
+        id="curr"
+        onchange="updateCurrency()"
+        style="width: 60px; height: 38px; border-radius: 5px; text-align: center; margin: 10px">
+        <option value="IDR">IDR</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select>
+    </div>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Deskripsi</th>
+          <th>Jumlah</th>
+          <th>Mata Uang</th>
+          <th>Kategori</th>
+          <th>Tanggal</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="transaction-table"></tbody>
+    </table>
+
+    <p id="total-balance">Total Saldo: 0 IDR</p>
+
+    <canvas id="transactionChart" style="margin-bottom: 20px; display: none"></canvas>
+
+    <button onclick="window.location.href='index.html'">Kembali</button>
+
+    <div id="editModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Edit Transaksi</h2>
+        <form id="editForm">
+          <label for="description">Deskripsi:</label>
+          <input type="text" id="description" required />
+
+          <label for="amount">Jumlah:</label>
+          <input type="number" id="amount" required />
+
+          <label for="currency">Mata Uang:</label>
+          <select id="currency">
+            <option value="IDR">IDR</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+          </select>
+
+          <label for="type">Tipe:</label>
+          <select id="type">
+            <option value="income">Pemasukan</option>
+            <option value="expense">Pengeluaran</option>
+          </select>
+
+          <label for="category">Kategori:</label>
+          <select id="category">
+            <option value="foodbev">Makanan & Minuman</option>
+            <option value="transport">Transportasi</option>
+            <option value="entertainment">Hiburan</option>
+            <option value="shopping">Belanja</option>
+            <option value="other">Lainnya</option>
+          </select>
+
+          <button type="button" id="save-btn">Simpan</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="transaction.js"></script>
+
+  </body>
+</html>

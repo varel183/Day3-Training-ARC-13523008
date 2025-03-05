@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "type": "income",
+    "category": "foodbev",
+    "description": "Penjualan makanan",
+    "currency": "IDR",
+    "amount": 20000,
+    "date": "2025-03-05T02:54:43.767Z"
+  },
+  {
+    "id": 2,
+    "type": "expense",
+    "category": "transport",
+    "description": "Bensin motor",
+    "currency": "IDR",
+    "amount": 50000,
+    "date": "2025-03-06T08:12:34.123Z"
+  },
+  {
+    "id": 3,
+    "type": "income",
+    "category": "entertainment",
+    "description": "Tiket konser",
+    "currency": "IDR",
+    "amount": 150000,
+    "date": "2025-03-07T12:45:56.456Z"
+  },
+  {
+    "id": 4,
+    "type": "expense",
+    "category": "shopping",
+    "description": "Beli baju",
+    "currency": "IDR",
+    "amount": 120000,
+    "date": "2025-03-08T15:23:45.789Z"
+  },
+  {
+    "id": 5,
+    "type": "income",
+    "category": "other",
+    "description": "Hadiah ulang tahun saya",
+    "currency": "IDR",
+    "amount": 300000,
+    "date": "2025-03-09T18:34:12.345Z"
+  },
+  {
+    "id": 6,
+    "type": "expense",
+    "category": "foodbev",
+    "description": "Makan siang",
+    "currency": "IDR",
+    "amount": 45000,
+    "date": "2025-03-10T09:56:23.678Z"
+  },
+  {
+    "id": 7,
+    "type": "income",
+    "category": "transport",
+    "description": "Pengembalian uang transport",
+    "currency": "IDR",
+    "amount": 75000,
+    "date": "2025-03-11T11:45:34.567Z"
+  },
+  {
+    "id": 8,
+    "type": "expense",
+    "category": "entertainment",
+    "description": "Nonton film",
+    "currency": "IDR",
+    "amount": 80000,
+    "date": "2025-03-12T14:23:45.890Z"
+  },
+  {
+    "id": 9,
+    "type": "income",
+    "category": "shopping",
+    "description": "Cashback belanja online",
+    "currency": "IDR",
+    "amount": 25000,
+    "date": "2025-03-13T16:34:56.123Z"
+  },
+  {
+    "id": 10,
+    "type": "expense",
+    "category": "other",
+    "description": "Donasi",
+    "currency": "IDR",
+    "amount": 100000,
+    "date": "2025-03-14T19:45:12.456Z"
+  },
+  {
+    "id": 11,
+    "type": "income",
+    "category": "foodbev",
+    "description": "Penjualan minuman",
+    "currency": "IDR",
+    "amount": 30000,
+    "date": "2025-03-15T22:12:34.789Z"
+  },
+  {
+    "id": 12,
+    "type": "expense",
+    "category": "transport",
+    "description": "Parkir mobil",
+    "currency": "IDR",
+    "amount": 20000,
+    "date": "2025-03-16T08:34:56.012Z"
+  },
+  {
+    "id": 13,
+    "type": "income",
+    "category": "entertainment",
+    "description": "Hadiah kuis",
+    "currency": "IDR",
+    "amount": 50000,
+    "date": "2025-03-17T11:23:45.345Z"
+  },
+  {
+    "id": 14,
+    "type": "expense",
+    "category": "shopping",
+    "description": "Beli perlengkapan rumah",
+    "currency": "IDR",
+    "amount": 150000,
+    "date": "2025-03-18T14:45:12.678Z"
+  },
+  {
+    "id": 15,
+    "type": "income",
+    "category": "other",
+    "description": "Bonus kerja",
+    "currency": "IDR",
+    "amount": 500000,
+    "date": "2025-03-19T17:56:34.901Z"
+  },
+  {
+    "id": 16,
+    "type": "expense",
+    "category": "foodbev",
+    "description": "Makan malam",
+    "currency": "IDR",
+    "amount": 60000,
+    "date": "2025-03-20T20:12:45.234Z"
+  },
+  {
+    "id": 17,
+    "type": "income",
+    "category": "transport",
+    "description": "Uang transport tambahan",
+    "currency": "IDR",
+    "amount": 40000,
+    "date": "2025-03-21T09:34:56.567Z"
+  },
+  {
+    "id": 18,
+    "type": "expense",
+    "category": "entertainment",
+    "description": "Main game online",
+    "currency": "IDR",
+    "amount": 30000,
+    "date": "2025-03-22T12:45:12.890Z"
+  },
+  {
+    "id": 19,
+    "type": "income",
+    "category": "shopping",
+    "description": "Cashback belanja bulanan",
+    "currency": "IDR",
+    "amount": 100000,
+    "date": "2025-03-23T15:56:34.123Z"
+  },
+  {
+    "id": 20,
+    "type": "expense",
+    "category": "other",
+    "description": "Biaya servis laptop",
+    "currency": "IDR",
+    "amount": 250000,
+    "date": "2025-03-24T18:12:45.456Z"
+  },
+  {
+    "id": 21,
+    "type": "income",
+    "category": "foodbev",
+    "description": "Coba1",
+    "currency": "IDR",
+    "amount": 10000,
+    "date": "2025-03-05T03:45:32.070Z"
+  }
+]

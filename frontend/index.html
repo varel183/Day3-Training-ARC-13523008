@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="index">
+    <h1>Finance Tracker</h1>
+
+    <form id="transaction-form">
+      <input type="text" id="description" placeholder="Deskripsi" required />
+      <input type="number" id="amount" placeholder="Nominal" required />
+      <select id="currency">
+        <option value="IDR">IDR</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select>
+      <select id="type">
+        <option value="income">Pemasukan</option>
+        <option value="expense">Pengeluaran</option>
+      </select>
+      <select id="category">
+        <option value="foodbev">Makanan dan Minuman</option>
+        <option value="transportation">Transportasi</option>
+        <option value="entertainment">Hiburan</option>
+        <option value="shopping">Belanja</option>
+        <option value="others">Lainnya</option>
+      </select>
+      <button type="submit">Tambah</button>
+    </form>
+
+    <button onclick="window.location.href='transactions.html'">Lihat Transaksi</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
